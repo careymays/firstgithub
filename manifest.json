@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Thumbnail Vault",
+  "version": "1.0.0",
+  "description": "A thumbnail idea vault for Mays Family Travels. Right-click any image to save it as inspiration for a video.",
+  "minimum_chrome_version": "116",
+  "permissions": ["contextMenus", "sidePanel", "storage", "unlimitedStorage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Thumbnail Vault",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

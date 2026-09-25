@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thumbnail Vault</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <main id="app"><p class="muted pad">Loading vault…</p></main>
+
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+
+  <dialog id="confirm">
+    <form method="dialog">
+      <p id="confirm-message"></p>
+      <div class="row end">
+        <button value="cancel" class="btn">Cancel</button>
+        <button value="ok" id="confirm-ok" class="btn danger">Delete</button>
+      </div>
+    </form>
+  </dialog>
+
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>
