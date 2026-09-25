@@ -1,0 +1,20 @@
+{
+  "ideas": [
+    {
+      "id": "grumblet-giggle-arc",
+      "title": "Grumblet Giggle Arc",
+      "targetVersion": "Version 2",
+      "summary": "A story seed for version 2. The grumblets learn that a giggle lights a lamp brighter than any grump. The arc ends in a Giggle Festival.",
+      "notes": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "grayscale-world",
+      "title": "Grayscale world",
+      "targetVersion": "",
+      "summary": "An uncolored world that colors in as you befriend squishes.",
+      "notes": "",
+      "kennedysIdea": false
+    }
+  ]
+}

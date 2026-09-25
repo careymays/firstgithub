@@ -1,5 +1,7 @@
 # Thumbnail Vault
 
+> This repository also holds the **Squish Island Lore Bible**, a separate static website in the [`docs/`](docs/) folder. See [`docs/README.md`](docs/README.md) for how it works.
+
 Thumbnail Vault is a Chrome extension (Manifest V3) that keeps thumbnail ideas for the Mays Family Travels YouTube channel. It lives in Chrome's side panel, so you can browse YouTube and save inspiration without leaving the page. There is no backend and there are no API keys. Everything is stored locally in `chrome.storage.local` in your own browser profile.
 
 ## Installing it (load unpacked)

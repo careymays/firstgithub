@@ -1,0 +1,34 @@
+{
+  "chapters": [
+    {
+      "id": "sunny-dunes",
+      "name": "Sunny Dunes",
+      "version": "V17",
+      "emoji": "🌵",
+      "color": "#f2a33a",
+      "status": "",
+      "description": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "frosty-peaks",
+      "name": "Frosty Peaks",
+      "version": "V18",
+      "emoji": "❄️",
+      "color": "#5fb2e6",
+      "status": "",
+      "description": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "treetop-jungle",
+      "name": "Treetop Jungle",
+      "version": "V19",
+      "emoji": "🌴",
+      "color": "#46ad68",
+      "status": "in planning",
+      "description": "",
+      "kennedysIdea": false
+    }
+  ]
+}

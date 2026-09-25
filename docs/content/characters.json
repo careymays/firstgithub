@@ -1,0 +1,48 @@
+{
+  "characters": [
+    {
+      "id": "nana-saguaro",
+      "name": "Nana Saguaro",
+      "title": "Sunny Dunes elder",
+      "area": "sunny-dunes",
+      "personality": "",
+      "designNotes": "Chosen over the earlier name \"Nana Prickles\" as the safer pick.",
+      "voiceLineStatus": "",
+      "artStatus": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "dune-the-sun-sleeper",
+      "name": "Dune the Sun-Sleeper",
+      "title": "",
+      "area": "sunny-dunes",
+      "personality": "",
+      "designNotes": "",
+      "voiceLineStatus": "",
+      "artStatus": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "old-frostwhisker",
+      "name": "Old Frostwhisker",
+      "title": "",
+      "area": "frosty-peaks",
+      "personality": "",
+      "designNotes": "",
+      "voiceLineStatus": "",
+      "artStatus": "",
+      "kennedysIdea": false
+    },
+    {
+      "id": "lark",
+      "name": "Lark",
+      "title": "",
+      "area": "",
+      "personality": "",
+      "designNotes": "",
+      "voiceLineStatus": "",
+      "artStatus": "",
+      "kennedysIdea": false
+    }
+  ]
+}

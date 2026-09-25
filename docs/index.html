@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Squish Island Lore Bible</title>
+  <meta name="description" content="The living source of truth for Squish Island, a cozy adventure game designed by Kennedy and Carey.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><ellipse cx='32' cy='38' rx='26' ry='20' fill='%23ff9fb8'/><circle cx='24' cy='36' r='4' fill='%23342a4a'/><circle cx='40' cy='36' r='4' fill='%23342a4a'/><path d='M26 45 q6 5 12 0' stroke='%23342a4a' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+        <ellipse cx="32" cy="50" rx="28" ry="9" fill="#ffe4a8"/>
+        <path d="M30 48 C29 36 31 24 34 16" stroke="#8a5a34" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M34 16 C26 10 16 12 12 18 C20 16 26 17 34 16 Z" fill="#46ad68"/>
+        <path d="M34 16 C40 8 50 8 55 14 C47 13 41 14 34 16 Z" fill="#46ad68"/>
+        <path d="M34 16 C38 20 42 27 42 34 C38 28 36 22 34 16 Z" fill="#3a9559"/>
+        <ellipse cx="46" cy="44" rx="9" ry="7" fill="#ff9fb8"/>
+        <circle cx="43.5" cy="43" r="1.5" fill="#342a4a"/><circle cx="48.5" cy="43" r="1.5" fill="#342a4a"/>
+      </svg>
+      <span>
+        <span class="brand-title">Squish Island</span>
+        <span class="brand-sub">Lore Bible</span>
+      </span>
+    </a>
+    <form class="global-search" role="search" id="search-form">
+      <input id="search-input" type="search" placeholder="Search characters, squishes, quests, lines…" aria-label="Search the whole bible" autocomplete="off">
+    </form>
+  </header>
+
+  <div class="layout">
+    <nav class="sidenav" id="nav" aria-label="Sections"></nav>
+    <main id="main" tabindex="-1"><p class="loading">Opening the bible…</p></main>
+  </div>
+
+  <footer class="footer">
+    Made by Kennedy &amp; Carey. Edit the files in <code>docs/content/</code> to change what's here.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "id": "art-nana-saguaro",
+      "name": "Nana Saguaro",
+      "kind": "character",
+      "linkedTo": "nana-saguaro",
+      "concept2d": "",
+      "runtime": "",
+      "model3d": "",
+      "notes": ""
+    },
+    {
+      "id": "art-dune-the-sun-sleeper",
+      "name": "Dune the Sun-Sleeper",
+      "kind": "character",
+      "linkedTo": "dune-the-sun-sleeper",
+      "concept2d": "",
+      "runtime": "",
+      "model3d": "",
+      "notes": ""
+    },
+    {
+      "id": "art-old-frostwhisker",
+      "name": "Old Frostwhisker",
+      "kind": "character",
+      "linkedTo": "old-frostwhisker",
+      "concept2d": "",
+      "runtime": "",
+      "model3d": "",
+      "notes": ""
+    },
+    {
+      "id": "art-lark",
+      "name": "Lark",
+      "kind": "character",
+      "linkedTo": "lark",
+      "concept2d": "",
+      "runtime": "",
+      "model3d": "",
+      "notes": ""
+    }
+  ]
+}

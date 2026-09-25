@@ -1,0 +1,16 @@
+{
+  "mechanics": [
+    {
+      "id": "sense-meter",
+      "title": "Sense meter",
+      "summary": "The on-screen meter for the Sense ability.",
+      "rules": [
+        "At rest, the meter stays transparent and subtle.",
+        "While Sense is in use, the meter is fully visible.",
+        "The meter is never hidden or removed."
+      ],
+      "notes": "",
+      "kennedysIdea": false
+    }
+  ]
+}
